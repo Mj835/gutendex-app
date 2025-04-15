@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* --- Colors --- */
+:root {
+  --primary-color: #5e56e7;
+  --secondary-color: #f8f7ff;
+  --grey-light: #f0f0f6;
+  --grey-medium: #a0a0a0;
+  --grey-dark: #333333;
+  --white: #ffffff;
+}
+
+/* --- Fonts --- */
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--grey-dark);
+  margin: 0 auto;
+}
